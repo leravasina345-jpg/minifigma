@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shinks — обучение веб-разработке</title>
+  <style>
+    :root {
+      --ink: #1A1A18;
+      --ink-soft: #55534E;
+      --paper: #F7F5F0;
+      --card: #FFFFFF;
+      --line: #E3DFD6;
+      --accent: #A6572B;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      padding: 64px 24px;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+      font-size: 17px;
+      line-height: 1.65;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    main {
+      max-width: 640px;
+      margin: 0 auto;
+    }
+
+    .eyebrow {
+      margin: 0 0 12px;
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 3.5px;
+      text-transform: uppercase;
+      color: var(--accent);
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: 44px;
+      font-weight: 700;
+      line-height: 1.1;
+      letter-spacing: -0.4px;
+    }
+
+    .tagline {
+      margin: 0 0 32px;
+      font-size: 19px;
+      color: var(--ink-soft);
+    }
+
+    .card {
+      padding: 28px 30px;
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 10px;
+    }
+
+    .card p {
+      margin: 0 0 16px;
+    }
+
+    .card p:last-child {
+      margin-bottom: 0;
+    }
+
+    footer {
+      margin-top: 28px;
+      font-size: 14px;
+      color: var(--ink-soft);
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <p class="eyebrow">Личная страница</p>
+    <h1>Shinks</h1>
+    <p class="tagline">Веб-разработка — то, чему я сейчас учусь.</p>
+
+    <div class="card">
+      <p>
+        Я начал изучать веб-разработку и каждый день разбираюсь с чем-то новым: разметкой,
+        стилями и тем, как браузер собирает страницу из обычного текста и кода.
+      </p>
+      <p>
+        Мне нравится, что результат работы виден сразу — можно написать строчку, сохранить файл
+        и увидеть, как она превратилась в элемент на экране. Это и делает процесс таким затягивающим.
+      </p>
+      <p>
+        Дальше планирую добраться до JavaScript, чтобы страницы начали реагировать на действия,
+        и собрать первый небольшой проект целиком — от идеи до публикации.
+      </p>
+    </div>
+
+    <footer>
+      Страница сделана вручную: HTML и CSS в одном файле, без фреймворков.
+    </footer>
+  </main>
+</body>
+</html>
